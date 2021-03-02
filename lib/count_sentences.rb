@@ -16,7 +16,7 @@ self.end_with?("!")
 
   def count_sentences
     #punctuation = (".")("?")("!")
-self.split('(?<=[\.\?\!])\s*')
+self.split([\.\?\!])
 
   end
 end
